@@ -34,10 +34,11 @@ following books useful:
 
 The course is pass/fail, with the grade breakdown as follows:
 
-|-----------------------|-----|
-| Attendance            | 30% |
-| Project idea/proposal | 10% |
-| Project completion    | 60% |
+| Component             | Proportion|
+|-----------------------|-----------|
+| Attendance            | 30%       |
+| Project idea/proposal | 10%       |
+| Project completion    | 60%       |
 
 We would like consistent attendance; but tell us if something happens.
 
@@ -45,6 +46,7 @@ We would like consistent attendance; but tell us if something happens.
 
 Because this is on GitHub, this will update with changing dates.
 
+| Class Topic                    | Date |
 |--------------------------------|------|
 | Game Representation/Trees      | 2/13 |
 | Classical Games                | 2/20 |
