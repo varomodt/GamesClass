@@ -117,7 +117,7 @@ MIT ES.S20 Lecture 1: Game Representation
 > the move that will maximize our performance, we can recurse
 > with the following two functions (in python pseudocode):
 
-`
+```
 def max-value(state,depth):
     if (depth == 0):
         return state.value
@@ -133,7 +133,7 @@ def min-value(state,depth):
     for each s in state.children:
         v = min(v,max-value(s,depth-1))
         return v
-`
+```
 
 > In this code, `v` is the valuation of the position. Take for example
 > 1 as a win, 0 as a draw, and -1 as a loss.
@@ -142,7 +142,7 @@ def min-value(state,depth):
 > variation which uses the property that -min(-a, -b) = max(a, b) to
 > combine the two into one function.
 
-`
+```
 def negamax(state,depth):
     if (depth == 0):
         return state.value
@@ -150,7 +150,7 @@ def negamax(state,depth):
     for each s in state.children:
         v = max(v,-negamax(s,depth-1))
         return v
-`
+```
 
 + Iterative Deepening
 
@@ -172,7 +172,7 @@ def negamax(state,depth):
 > or heuristic; and if we have a good one, we can just add it to our
 > valuation. If we have a specific goal in mind, this is called A\*.
 
-`
+```
 def heurstic_search(state, max_depth):
     if (max_depth == 0 or state.is_end()):
         return evaluate(state)
@@ -181,7 +181,7 @@ def heurstic_search(state, max_depth):
     for each s in state.children:
         v = max(v, -heuristic_search(s, max_depth-1))
         return v
-`
+```
 
 > If we accept feedback from the success and failure of our heuristic function,
 > we can learn a proper heuristic. We'll see this later when we talk about
@@ -213,4 +213,8 @@ def heurstic_search(state, max_depth):
 
 # Demonstration
 
-+ 
++ Strategic Positioning Game
+
++ Loopy
+
++ Playing chess?
