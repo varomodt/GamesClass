@@ -40,7 +40,7 @@ MIT ES.S20 Lecture 1: Game Representation
 > Recreational mathematics is what happens when you take games
 > as inspiration for mathematical problems:
 
-> "All mathematics is a recreation" - Conway
+> "_All mathematics is a recreation_" - Smith
 
 # The Point of this Course
 
@@ -93,7 +93,7 @@ MIT ES.S20 Lecture 1: Game Representation
 > ways to make game solutions, but this is probably the simplest.
 
 > Whatever is on the board we call a "state" and a move by either
-> player is an edge between these states (a ply).
+> player is an edge between these states (a _ply_).
 
 + Game Trees
 
@@ -105,7 +105,7 @@ MIT ES.S20 Lecture 1: Game Representation
 ![Game Tree Example](tree.png)
 
 > We call the number of moves that can be made from any given game
-> state the branching factor
+> state the _branching factor_
 
 # Game Searching
 
@@ -135,7 +135,7 @@ def min-value(state,depth):
         return v
 ```
 
-> In this code, `v` is the valuation of the position. Take for example
+> In this code, `v` is the _valuation_ of the position. Take for example
 > 1 as a win, 0 as a draw, and -1 as a loss.
 
 > It's instructive to see why we can also use Negamax search, a slight
@@ -160,7 +160,7 @@ def negamax(state,depth):
 > iterative process.
 
 > Note, however, that this is difficult because you have to know in
-> advance how far you're going to go and you have to have an evaluation
+> advance how far you're going to go and you have to have an _evaluation_
 > function. We'll talk about how to optimize this sort of procedure when
 > we talk about Chess.
 
@@ -194,7 +194,7 @@ def heurstic_search(state, max_depth):
 > branches and a lot of them look the same. When this happens, randomized strategies
 > like Monte-Carlo make a lot of sense:
 
-> The assumption is that simulating play at a random node will be representative
+> The assumption is that _simulating_ play at a random node will be representative
 > and we can get a rough idea of the probability of a good outcome by trying
 > random continuations. We'll talk more about this when we deal with randomized
 > games.
