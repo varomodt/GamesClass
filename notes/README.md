@@ -2,13 +2,8 @@ MIT ES.S20 Course Notes
 -------
 
 The lecture notes and slides will show up here as they are
-written -- each lecture consists of the following:
-
- * Lecture Outline with references (Markdown; viewable on GitHub)
-
- * Narrative-style lecture notes (unrendered LaTeX)
-
- * Lecture Slides (unrendered Beamer)
+finished -- the first several lectures are based mostly on
+the course notes from Jing Li and Melissa Gymrek.
 
 The tentative outline for this course is the following set of
 lectures:

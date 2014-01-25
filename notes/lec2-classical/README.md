@@ -44,7 +44,7 @@ MIT ES.S20 Lecture 2: Classical Combinatorial Game Theory
 ```
 A B C     Moves
 
-3 4 5     
+3 4 5
           I take 2 from A
 1 4 5
           You take 3 from C

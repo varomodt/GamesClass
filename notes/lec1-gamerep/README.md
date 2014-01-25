@@ -7,13 +7,15 @@ MIT ES.S20 Lecture 1: Game Representation
 
 2. Why do we care about this?
 
-3. How do we represent games mathematically?
+3. What do we need?
 
-4. How does searching on game trees work?
+4. How do we represent games mathematically?
 
-5. What happens when you can't see the end?
+5. How does searching on game trees work?
 
-6. First Game Demonstration
+6. What happens when you can't see the end?
+
+7. First Game Demonstration
 
 # Toys and Games
 
@@ -94,6 +96,9 @@ MIT ES.S20 Lecture 1: Game Representation
 
 > Whatever is on the board we call a "state" and a move by either
 > player is an edge between these states (a _ply_).
+
+> This is the essential graphical metaphor we will use in class,
+> and understanding this intuitively is _very_ important.
 
 + Game Trees
 
@@ -209,7 +214,7 @@ def heurstic_search(state, max_depth):
 > Clearly, this turns the problem of game searching into a giant boolean circuit
 > and is particularly relevant when we start talking about possiblities of winning.
 > If we want to attach probabilities of winning to nodes instead of 1 and 0, we
-> can use fuzzy logic, but this ends up being just the same as heuristic search.
+> can use fuzzy logic, but this ends up being just the same as heuristic search
 
 # Demonstration
 
