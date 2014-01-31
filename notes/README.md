@@ -8,29 +8,29 @@ the course notes from Jing Li and Melissa Gymrek.
 The tentative outline for this course is the following set of
 lectures:
 
- + Game Representation/Trees with basic Negamax
+ + Game Representation/Trees with basic Negamax [rsloan]
 
- + Classical Combinatorial Game Theory (Nim, Hex, etc.)
+ + Classical Combinatorial Game Theory (Nim, Hex, etc.) [rsloan]
 
- + Algebraic Structures in Games (Rubik's cubes)
+ + Algebraic Structures in Games (Rubik's cubes) [rsloan]
 
- + Algorithms: Dynamic programming and Optimal play
+ + Algorithms: Dynamic programming and Optimal play [jaysonl]
 
- + Computational Complexity of Games (Erik)
+ + Linkages and Origami [edemaine]
 
- + AI Search techniques (Chess, Go)
+ + Modern Learning and AI Techniques [rsloan]
 
- + Other metaheuristics (Genetic Algorithms, Weighting)
+ + Distributed Systems and Games (Consensus, Mediating) [rsloan]
 
- + Economic Game Theory (Markets, Equilibria)
+ + Economic Game Theory (Markets, Equilibria) [jaysonl]
 
- + Auctions and Mechanism Design
+ + Auctions and Mechanism Design [jaysonl]
 
- + Randomized Games (Monopoly, Poker)
+ + Randomized Games (Monopoly, Poker) [rsloan]
 
- + Inference and Network Models (Reinforcement-Learned Games)
+ + Network Models and Game Statistics (Reinforcement-Learned Games) [rsloan]
 
- + Generative games (Cellular Automata Models, Generative Grammars)
+ + Generative games (Cellular Automata Models, Generative Grammars) [rsloan]
 
- + Game Design Strategies (Feedback/control)
+ + Game Design Strategies (Feedback/control) [jaysonl]
 

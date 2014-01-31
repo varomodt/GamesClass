@@ -42,25 +42,25 @@ The course is pass/fail, with the grade breakdown as follows:
 
 We would like consistent attendance; but tell us if something happens.
 
-# Weekly Schedule
+# Tentative Weekly Schedule
 
 Because this is on GitHub, this will update with changing dates.
 
-| Class Topic                    | Date |
-|--------------------------------|------|
-| Game Representation/Trees      | 2/13 |
-| Classical Games                | 2/20 |
-| Algebraic Structures           | 2/27 |
-| Dynamic Programming            | 3/6  |
-| Computational Complexity       | 3/13 |
-| AI Search Techniques           | 3/20 |
-| Other Metaheuristics           | 4/3  |
-| Economic Game Theory           | 4/10 |
-| Auctions and Mechanism Design  | 4/17 |
-| Randomized Games               | 4/24 |
-| Inference and Network Models   | 5/1  |
-| Generative Games               | 5/8  |
-| Game Design Strategies         | 5/15 |
+| Class Topic                    | Date | Lecturer  |
+|--------------------------------|------|-----------|
+| Game Representation/Trees      | 2/13 | rsloan    |
+| Classical Games                | 2/20 | rsloan    |
+| Algebraic Structures           | 2/27 | rsloan    |
+| Dynamic Programming            | 3/6  | jaysonl   |
+| Linkages and Origami           | 3/13 | edemaine  |
+| Learning and AI                | 3/20 | rsloan    |
+| Distributed Systems            | 4/3  | rsloan    |
+| Economic Game Theory           | 4/10 | jaysonl   |
+| Auctions and Mechanism Design  | 4/17 | jaysonl   |
+| Randomized Games               | 4/24 | rsloan    |
+| Networks and Game Statistics   | 5/1  | rsloan    |
+| Generative Games               | 5/8  | rsloan    |
+| Game Design Strategies         | 5/15 | jaysonl   |
 
 # Final Project Guidelines
 

@@ -216,10 +216,17 @@ def heurstic_search(state, max_depth):
 > If we want to attach probabilities of winning to nodes instead of 1 and 0, we
 > can use fuzzy logic, but this ends up being just the same as heuristic search
 
++ Attack Trees
+
+> Example of the utility of this reasoning technique: Schneier's Attack trees
+> for security problems have the _same structure_ as proof searching. This can
+> be generalized to speak of security problems as games.
+
 # Demonstration
 
-+ Strategic Positioning Game
++ Rob a Bank with Attack Trees
 
-+ Loopy
++ Play a group game of Chess960
 
-+ Playing chess?
++ Independently play game variants: how do they change
+  the game's characteristics?
